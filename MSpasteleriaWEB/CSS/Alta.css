@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../Img/main1.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+  }
+  
+  .Main {
+    width: 800px;
+    height: 520px;
+    background: cornflowerblue ;
+    color: white;
+    top: 40%;
+    left: 20%;
+    position: absolute;
+    transform: translate(2%, -35%);
+    box-sizing: border-box;
+    padding: 20px 30px;
+    opacity: 0.96;
+  }
+  
+  .Main h1 {
+    font-size: 28px;
+    padding: 0 0 20px;
+    text-align: left;
+    margin: 0;
+    font-weight: bold;
+    display: block;
+    color: white;
+  }
+
+  .Main h2 {
+    font-size: 10px;
+    padding: 0 0 20px;
+    text-align: left;
+    margin: 0;
+    font-weight: bold;
+    display: block;
+    color: red;
+  }
+  
+  .Main label {
+    margin: 0;
+    padding: 2px 0px;
+    font-weight: bold;
+    display: block;
+    text-anchor: middle;
+  }
+
+  .Main input {
+    margin: 0;
+    padding: 0px 65px;
+    font-weight: bold;
+    display: block;
+  }
+  
+  .Main a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: mediumpurple;
+    left: 55%;
+  }
+  
+  .Main a:hover {
+    color:salmon;
+    font-weight: bold;
+  }

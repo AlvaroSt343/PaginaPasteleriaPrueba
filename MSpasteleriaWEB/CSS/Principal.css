@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(../Img/main1.jpg) no-repeat center top;
+  background-size: cover;
+  font-family: sans-serif;
+  height: 100vh;
+}
+
+.Main {
+  width: 800px;
+  height: 520px;
+  background: pink ;
+  color: white;
+  top: 40%;
+  left: 20%;
+  position: absolute;
+  transform: translate(2%, -35%);
+  box-sizing: border-box;
+  padding: 20px 30px;
+  opacity: 0.96;
+}
+
+.Main h1 {
+  font-size: 50px;
+  padding: 0 0 20px;
+  text-align: center;
+  margin: 0;
+  font-weight: bold;
+  display: block;
+  color: lightseagreen;
+}
+
+.Main label {
+  margin: 0;
+  padding: 30px 0px;
+  font-weight: bold;
+  display: block;
+}
+
+.Main a {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: mediumpurple;
+  left: 55%;
+}
+
+.Main a:hover {
+  color:salmon;
+  font-weight: bold;
+}
